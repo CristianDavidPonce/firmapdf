@@ -1,22 +1,36 @@
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 export default function Hero() {
   return (
     <section id="hero" className="pt-8 pb-20 px-6">
       <div className="max-w-7xl mx-auto flex flex-col items-center text-center">
         <div className="space-y-6 max-w-4xl">
-          <h1 className="text-5xl md:text-5xl font-bold leading-tight">
-            Firma fácil tus <span className='text-orange-500'>
-              
-              PDFs
-              </span>
-          </h1>
-          <p className="text-xl">
-            Firma documentos PDF con certificados p12/pfx. Sin internet, compatible con Firma Electrónica de Ecuador 🇪🇨.
-          </p>
+          <motion.h1 
+            className="text-5xl md:text-5xl font-bold leading-tight"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
+            Firma fácil tus <span className="text-orange-500">PDFs</span>
+          </motion.h1>
+          
+          <motion.p 
+            className="text-xl"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
+          >
+            Firma documentos PDF con certificados p12/pfx. Sin internet, compatible con Firma Electrónica de Ecuador.
+          </motion.p>
           
         </div>
-        <div className="mt-16 flex justify-center items-center relative">
+        <motion.div 
+          className="mt-16 flex justify-center items-center relative"
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.7, delay: 0.4, ease: "easeOut" }}
+        >
           <div className="relative">
             <Image 
               src="/pixel.png" 
@@ -35,7 +49,7 @@ export default function Hero() {
               />
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
