@@ -19,7 +19,6 @@ export default function Home() {
       <Features />
       <HowItWorks />
       <SigningModes />
-      <Security />
       <Requirements />
       <Download />
       <FAQ />
