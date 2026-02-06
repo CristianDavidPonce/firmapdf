@@ -2,22 +2,22 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-50 dark:bg-gray-900 py-16 px-6 border-t border-gray-200 dark:border-gray-800">
+    <footer className="bg-gray-50 py-16 px-6 border-t border-gray-200">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-gray-900 dark:text-white">FirmaPDF</h3>
-            <p className="text-gray-600 dark:text-gray-400">
+            <h3 className="text-xl font-bold text-gray-900">FirmaPDF</h3>
+            <p className="text-gray-600">
               Firma digital de PDFs, fácil, rápida y segura.
             </p>
           </div>
           <div className="space-y-4">
-            <h4 className="font-bold text-gray-900 dark:text-white">Páginas</h4>
+            <h4 className="font-bold text-gray-900">Páginas</h4>
             <ul className="space-y-2">
               <li>
                 <Link 
                   href="/#caracteristicas" 
-                  className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
+                  className="text-gray-600 hover:text-primary transition-colors"
                 >
                   Características
                 </Link>
@@ -25,7 +25,7 @@ export default function Footer() {
               <li>
                 <Link 
                   href="/#como-funciona" 
-                  className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
+                  className="text-gray-600 hover:text-primary transition-colors"
                 >
                   Cómo Funciona
                 </Link>
@@ -33,7 +33,7 @@ export default function Footer() {
               <li>
                 <Link 
                   href="/#faq" 
-                  className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
+                  className="text-gray-600 hover:text-primary transition-colors"
                 >
                   Preguntas Frecuentes
                 </Link>
@@ -41,12 +41,12 @@ export default function Footer() {
             </ul>
           </div>
           <div className="space-y-4">
-            <h4 className="font-bold text-gray-900 dark:text-white">Legal</h4>
+            <h4 className="font-bold text-gray-900">Legal</h4>
             <ul className="space-y-2">
               <li>
                 <Link 
                   href="/terminos" 
-                  className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
+                  className="text-gray-600 hover:text-primary transition-colors"
                 >
                   Términos y Condiciones
                 </Link>
@@ -54,7 +54,7 @@ export default function Footer() {
               <li>
                 <Link 
                   href="/privacidad" 
-                  className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
+                  className="text-gray-600 hover:text-primary transition-colors"
                 >
                   Políticas de Privacidad
                 </Link>
@@ -62,12 +62,12 @@ export default function Footer() {
             </ul>
           </div>
           <div className="space-y-4">
-            <h4 className="font-bold text-gray-900 dark:text-white">Soporte</h4>
+            <h4 className="font-bold text-gray-900">Soporte</h4>
             <ul className="space-y-2">
               <li>
                 <a 
                   href="mailto:soporte@firmapdf.app" 
-                  className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
+                  className="text-gray-600 hover:text-primary transition-colors"
                 >
                   soporte@firmapdf.app
                 </a>
@@ -75,7 +75,7 @@ export default function Footer() {
               <li>
                 <a 
                   href="mailto:soporte@firmapdf.app" 
-                  className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
+                  className="text-gray-600 hover:text-primary transition-colors"
                 >
                   Contacto
                 </a>
@@ -83,7 +83,7 @@ export default function Footer() {
               <li>
                 <a 
                   href="mailto:soporte@firmapdf.app?subject=Reportar un problema" 
-                  className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
+                  className="text-gray-600 hover:text-primary transition-colors"
                 >
                   Reportar un problema
                 </a>
@@ -91,8 +91,8 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="text-center pt-8 border-t border-gray-200 dark:border-gray-800">
-          <p className="text-gray-600 dark:text-gray-400">
+        <div className="text-center pt-8 border-t border-gray-200">
+          <p className="text-gray-600">
             © 2026 FirmaPDF. Todos los derechos reservados.
           </p>
         </div>
