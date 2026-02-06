@@ -1,11 +1,13 @@
 import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
 
 export default function Header() {
   return (
     <header className="">
       <nav className="max-w-7xl mx-auto px-6 py-6 ">
         <div className="flex justify-between items-center">
-          <div className="flex items-center gap-3">
+          <Link href="/" className="flex items-center gap-3">
             <Image 
               src="/logo-cuadrado.png" 
               alt="FirmaPDF Logo" 
@@ -14,12 +16,11 @@ export default function Header() {
               className="w-10 h-10 rounded-full"
             />
             <h1 className="text-2xl font-bold">FirmaPDF</h1>
-          </div>
+          </Link>
           <ul className="flex gap-8">
-            <li><a href="#caracteristicas">Características</a></li>
-            <li><a href="#como-funciona">Cómo Funciona</a></li>
-            <li><a href="#seguridad">Seguridad</a></li>
-            <li><a href="#descargar">Descargar</a></li>
+            <li><Link href="/#caracteristicas">Características</Link></li>
+            <li><Link href="/#como-funciona">Cómo Funciona</Link></li>
+            <li><Link href="/#descargar">Descargar</Link></li>
           </ul>
         </div>
       </nav>

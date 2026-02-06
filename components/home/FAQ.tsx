@@ -18,11 +18,11 @@ export default function FAQ() {
     },
     {
       question: "¿Necesito internet para firmar?",
-      answer: "No. SignEC funciona completamente offline. Una vez instalada la app, puedes firmar documentos sin necesidad de conexión a internet."
+      answer: "No. FirmaPDF funciona completamente offline. Una vez instalada la app, puedes firmar documentos sin necesidad de conexión a internet."
     },
     {
       question: "¿Es compatible con la Firma Electrónica de Ecuador?",
-      answer: "Sí, SignEC es compatible con los certificados de Firma Electrónica emitidos en Ecuador y cualquier certificado digital estándar en formato p12 o pfx."
+      answer: "Sí, FirmaPDF es compatible con los certificados de Firma Electrónica emitidos en Ecuador y cualquier certificado digital estándar en formato p12 o pfx."
     },
     {
       question: "¿Puedo firmar varios documentos a la vez?",
@@ -30,7 +30,7 @@ export default function FAQ() {
     },
     {
       question: "¿La app es gratuita?",
-      answer: "SignEC ofrece funciones básicas gratuitas. Algunas características avanzadas como la firma múltiple y sumillar están disponibles en la versión PRO."
+      answer: "FirmaPDF ofrece funciones básicas gratuitas. Algunas características avanzadas como la firma múltiple y sumillar están disponibles en la versión PRO."
     }
   ];
 
@@ -55,7 +55,7 @@ export default function FAQ() {
             </h2>
           </div>
           <p className="text-gray-600">
-            Encuentra respuestas a las preguntas más comunes sobre SignEC
+            Encuentra respuestas a las preguntas más comunes sobre FirmaPDF
           </p>
         </motion.div>
 

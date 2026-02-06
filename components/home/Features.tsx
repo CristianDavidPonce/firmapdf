@@ -87,7 +87,7 @@ export default function Features() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-center text-gray-600 mb-16 max-w-2xl mx-auto"
         >
-          Descubre todas las funcionalidades que hacen de SignEC la mejor aplicación para firmar tus documentos
+          Descubre todas las funcionalidades que hacen de FirmaPDF la mejor aplicación para firmar tus documentos
         </motion.p>
         <motion.div 
           variants={containerVariants}

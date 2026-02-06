@@ -12,7 +12,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
-            Firma fácil tus <span className="text-orange-500">PDFs</span>
+            Firma fácil tus <span className="text-red-500">PDFs</span>
           </motion.h1>
           
           <motion.p 
@@ -21,8 +21,22 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
           >
-            Firma documentos PDF con certificados p12/pfx. Sin internet, compatible con Firma Electrónica de Ecuador.
+            Firma documentos PDF con certificados p12/pfx. Sin internet, rápido y seguro.
           </motion.p>
+          
+          <motion.div
+            className="flex flex-wrap justify-center gap-3 pt-4"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
+          >
+            <span className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 text-indigo-600-700  border border-blue-200  rounded-full text-sm font-medium">
+              🇪🇨 Compatible Firma Electrónica Ecuador
+            </span>
+            <span className="inline-flex items-center gap-2 px-4 py-2 bg-green-50 text-green-700  border border-green-200 rounded-full text-sm font-medium">
+              📱 Disponible en Android
+            </span>
+          </motion.div>
           
         </div>
         <motion.div 
